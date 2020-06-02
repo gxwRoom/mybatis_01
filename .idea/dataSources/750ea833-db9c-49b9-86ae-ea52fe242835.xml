@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="mybatisdb@localhost">
+  <database-model serializer="dbm" rdbms="MYSQL" format-version="4.4">
+    <root id="1"/>
+    <schema id="2" parent="1" name="mybatisdb">
+      <Current>1</Current>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="3" parent="1" name="bmd_hostipal"/>
+    <schema id="4" parent="1" name="db_blog3"/>
+    <schema id="5" parent="1" name="gxwroom_dubbo_hostipal"/>
+    <schema id="6" parent="1" name="gxwroom_shop"/>
+    <schema id="7" parent="1" name="gxw_hostipal"/>
+    <schema id="8" parent="1" name="hospital"/>
+    <schema id="9" parent="1" name="information_schema"/>
+    <schema id="10" parent="1" name="jedis"/>
+    <schema id="11" parent="1" name="library"/>
+    <schema id="12" parent="1" name="mybatis"/>
+    <schema id="13" parent="1" name="mysql"/>
+    <schema id="14" parent="1" name="newbee_mall_schema"/>
+    <schema id="15" parent="1" name="performance_schema"/>
+    <schema id="16" parent="1" name="school_guahao"/>
+    <schema id="17" parent="1" name="school_hospital"/>
+    <schema id="18" parent="1" name="shop"/>
+    <schema id="19" parent="1" name="springboot"/>
+    <schema id="20" parent="1" name="springbootdb"/>
+    <schema id="21" parent="1" name="ssm"/>
+    <schema id="22" parent="1" name="ssm_crud"/>
+    <schema id="23" parent="1" name="student"/>
+    <schema id="24" parent="1" name="sys"/>
+    <schema id="25" parent="1" name="system"/>
+    <schema id="26" parent="1" name="tmall_ssm"/>
+    <schema id="27" parent="1" name="vue_demo"/>
+    <table id="28" parent="2" name="user"/>
+    <column id="29" parent="28" name="id">
+      <Position>1</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="30" parent="28" name="username">
+      <Position>2</Position>
+      <Comment>用户名称</Comment>
+      <DataType>varchar(32)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="31" parent="28" name="birthday">
+      <Position>3</Position>
+      <Comment>生日</Comment>
+      <DataType>datetime|0</DataType>
+    </column>
+    <column id="32" parent="28" name="sex">
+      <Position>4</Position>
+      <Comment>性别</Comment>
+      <DataType>char(1)|0</DataType>
+    </column>
+    <column id="33" parent="28" name="address">
+      <Position>5</Position>
+      <Comment>地址</Comment>
+      <DataType>varchar(256)|0</DataType>
+    </column>
+    <key id="34" parent="28" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+    </key>
+  </database-model>
+</dataSource>
